@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pay for Your Order - Orifice Delivery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 750px;
+      margin: 2em auto;
+      background: #fff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .logo-section {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .logo-section img {
+      max-width: 100px;
+      border-radius: 10px;
+    }
+    .logo-section h1 {
+      margin-top: 0.3em;
+      font-size: 2em;
+      color: #2c3e50;
+    }
+    .qr-section {
+      text-align: center;
+      margin: 2em 0;
+    }
+    .qr-section img {
+      width: 220px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .button-group {
+      margin-top: 1em;
+    }
+    .button-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .upi-button {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      padding: 14px 20px;
+      font-size: 16px;
+      background-color: #27ae60;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+    .upi-button:hover {
+      background-color: #1e8449;
+    }
+    .notice {
+      text-align: center;
+      color: #777;
+      margin-top: 1em;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    @media (max-width: 360px) {
+      .upi-button {
+        font-size: 15px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-section">
+      <img src="77.jpg" alt="Orifice Delivery Logo">
+      <h1>Orifice Delivery</h1>
+      <p>Fast, affordable grocery delivery for small towns</p>
+    </div>
+
+    <h2 style="text-align:center">🛒 Pay for Your Order</h2>
+
+    <div class="qr-section">
+      <img src="88.png" alt="UPI QR Code">
+      <p><strong>UPI ID:</strong> <code>pothabattulavinodyadav@ybl</code></p>
+    </div>
+
+    <div class="button-group">
+      <div class="button-wrapper">
+        <a class="upi-button" href="upi://pay?pa=pothabattulavinodyadav@ybl&pn=Vinod%20Yadav&am=350&cu=INR&tn=Order%20%231023%20Payment">
+          Pay ₹350 for Order #1023
+        </a>
+      </div>
+    </div>
+
+    <div class="notice">
+      📱 Use UPI apps like GPay, PhonePe, or Paytm to complete the payment. Please share a screenshot after payment for confirmation.
+    </div>
+
+    <footer>
+      &copy; 2025 Orifice Delivery
+    </footer>
+  </div>
+</body>
+</html>
