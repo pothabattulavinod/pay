@@ -1,21 +1,6 @@
-# Name of the Worker (will appear in Cloudflare dashboard)
-name = "m"
-
-# Type of Worker project
-type = "javascript"
-
-# Cloudflare account ID (replace with your actual account ID)
-account_id = "1c13e1ee57220fb5c5ce493cbc31e598"
-
-# Use workers.dev subdomain for deployment
+name = "m"                          # Worker name
+compatibility_date = "2025-10-24"
+main = "worker.js"
+account_id = "1c13e1ee57220fb5c5ce493cbc31e598"      # Your Cloudflare account ID
 workers_dev = true
 
-# Route and Zone ID are empty because we are using workers.dev
-route = ""
-zone_id = ""
-
-# Optional: compatibility flags for newer JS features
-compatibility_flags = []
-
-# Optional: specify the entry point file (if different from index.js)
-# main = "index.js"
